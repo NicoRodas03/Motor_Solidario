@@ -74,7 +74,11 @@ figure img{
 }
 
 figcaption{
-    
+    grid-column: 1/-1;
+    text-align: left;
+    font-style:10px;
+    margin-top: 10px; /*redonde esquinas*/
+    color: #555
 
 }
 
