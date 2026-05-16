@@ -83,7 +83,10 @@ figcaption{
 }
 
 footer{
-    
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    padding: 1.5rem;
+    margin-top: 2rem;
 
 
 }
