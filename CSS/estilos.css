@@ -32,17 +32,22 @@ header {
 }
 /*menu de navegacion*/
 nav{
-    
+    margin-top: 0.5rem;
 }
 nav ul{
-   
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
 }
 nav a{
-    
+    color:var(--color-acento);
+    text-decoration: none;
+    font-weight: 200;
 
 }
 nav a:hover{
-    
+    color:var(--color-fondo);
+    text-decoration:underline;
 
 }
 main{
