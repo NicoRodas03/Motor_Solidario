@@ -26,7 +26,9 @@ p{margin-top: 1rem;}
 
 /*header*/
 header {
-    
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    padding: 1rem 1.5rem;
 }
 /*menu de navegacion*/
 nav{
