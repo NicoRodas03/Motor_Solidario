@@ -1,0 +1,77 @@
+:root{
+    --color-primario: #cfe1f3;
+    --color-acento: #76A74B;
+    --color-texto:#2D2D2D;
+    --color-fondo:#F4F7F6;
+    
+
+
+}
+/*reset basico*/
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*estilos globales*/
+html{font-size: 18px;}
+body{
+    
+    
+}
+/*tipografia*/
+h1{font-size: 2rem; color: var(--color-acento);}
+h2{font-size: 1.50rem; color: var(--color-acento)}
+h3{font-size: 1.25rem; color: var(--color-acento)}
+p{margin-top: 1rem;}
+
+/*header*/
+header {
+    
+}
+/*menu de navegacion*/
+nav{
+    
+}
+nav ul{
+   
+}
+nav a{
+    
+
+}
+nav a:hover{
+    
+
+}
+main{
+    
+}
+
+section{
+    
+}
+
+/*figure - (seccion pero de imagenes) */
+
+figure{
+   
+}
+figure img{
+    
+
+}
+
+figcaption{
+    
+
+}
+
+footer{
+    
+
+
+}
+
+body {
+    
+}
