@@ -33,7 +33,7 @@ body{
 h1{font-size: 2rem; color: var(--color-acento);}
 h2{font-size: 1.50rem; color: var(--color-acento)}
 h3{font-size: 1.25rem; color: var(--color-acento)}
-p{margin-top: 1rem;}
+p{margin: 1rem;}
 
 /*header*/
 header {
