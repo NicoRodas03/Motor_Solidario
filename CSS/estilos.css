@@ -62,11 +62,19 @@ nav a:hover{
 
 }
 main{
+    width: 80%
+    margin: auto;
+    padding: 20px;
     
 }
 
-section{
+section {
     
+  background-color: #e3f2fd;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+
 }
 
 /*figure - (seccion pero de imagenes) */
