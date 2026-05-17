@@ -76,6 +76,9 @@ section {
   border-radius: 15px;
 
 }
+ul li {
+    margin-bottom:70px;
+}
 
 /*figure - (seccion pero de imagenes) */
 
