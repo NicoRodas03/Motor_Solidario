@@ -88,6 +88,8 @@ figure{
     display: flex;
     flex-direction: column;
     height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 figure img{
     width: 400px;
