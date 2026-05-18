@@ -22,6 +22,11 @@ body{
     font-optical-sizing: auto;
     font-weight: 450;
     font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 /*tipografia*/
