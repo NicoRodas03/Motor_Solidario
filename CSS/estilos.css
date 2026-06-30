@@ -104,4 +104,11 @@ button[type="submit"]{
 }
 button[type="submit"]:hover{background-color: var(--verde-medio);}
 
+footer{
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
 
