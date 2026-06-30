@@ -70,3 +70,12 @@ main{padding: 2rem 0;}
     margin-top: 1rem;
 }
 
+.card{
+    padding: 1.5rem;
+    border: 1px solid var(--verde-medio);
+    border-radius: 8px;
+    background-color: rgb(225, 255, 188);
+    flex: 1 1 280px;
+}
+
+
