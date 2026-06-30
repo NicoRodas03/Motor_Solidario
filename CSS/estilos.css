@@ -40,6 +40,9 @@ header {
     color: var(--color-texto);
     padding: 1rem 1.5rem;
 }
+header h1{
+    font-size: 1.75rem;
+}
 
 nav{
     margin-top: 0.5rem;
