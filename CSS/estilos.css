@@ -67,6 +67,11 @@ nav a:hover{
 }
 main{padding: 2rem 0;}
 
+section{
+    background-color: var(--color-extra);
+    border-radius:  10px;  
+}
+
 .servicios{
     display: flex;
     flex-wrap: wrap;
