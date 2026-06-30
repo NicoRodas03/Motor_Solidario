@@ -61,12 +61,7 @@ nav a:hover{
     text-decoration:underline;
 
 }
-main{
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    
-}
+main{padding: 2rem 0;}
 
 section {
     
