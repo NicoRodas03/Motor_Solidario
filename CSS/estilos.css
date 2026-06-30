@@ -53,7 +53,7 @@ nav ul{
 nav a{
     color:var(--color-acento);
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 600;
 
 }
 nav a:hover{
