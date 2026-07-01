@@ -14,147 +14,153 @@
     <body>
         <header>
             <section class="container text-center py-0">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="./Imagenes/ONG_LOGO_OF.png"
+                            width="250"
+                            alt="Logo Motor Solidario">
 
-                <img src="./Imagenes/ONG_LOGO_OF.png"
-                    width="250"
-                    alt="Logo Motor Solidario">
+                        <h1>Motor Solidario</h1>
 
-                <h1>
-                    Motor Solidario
-                </h1>
-
-                <p class="lead">
-                    Impulsando vidas, construyendo futuro.
-                </p>
+                        <p class="lead">
+                            Impulsando vidas, construyendo futuro.
+                        </p>
+                    </div>
+                </div>
 
             </section>
 
             <nav class="navbar navbar-expand-lg navbar-personalizada">
 
                 <div class="container">
+                    <div class="row w-100">
+                        <div class="col-12">
 
-                    <button class="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#menu">
+                            <button class="navbar-toggler"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#menu">
 
-                        <span class="navbar-toggler-icon"></span>
+                                <span class="navbar-toggler-icon"></span>
 
-                    </button>
+                            </button>
 
-                    <div class="collapse navbar-collapse" id="menu">
+                            <div class="collapse navbar-collapse" id="menu">
 
-                        <ul class="navbar-nav ms-auto">
+                                <ul class="navbar-nav ms-auto">
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Inicio</a>
-                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./index.html">Inicio</a>
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./Nosotros.html">Nosotros</a>
-                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./programas.html">Programas</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                    <li class="dark-mode-container">
-                    <button id="btn-modo" class="btn-outline-secondary btn-sm">modo oscuro</button>
-                    </li>
-
-                    </ul>
-
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./programas.html">Programas</a>
+                                    </li>
+                                    <li class="dark-mode-container">
+                                        <button id="btn-modo" class="btn-outline-secondary btn-sm">modo oscuro</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                        
                 </div>
-
             </nav>
-
         </header>
 
         <main>
-            <section id="direccion">
-                <h2>Dirección</h2>
-                <p> 
-                    <a href="https://www.google.com/maps" target="_blank">
-                        Av. Los Angeles 123, Buenos Aires, Argentina
-                    </a>
-                </p>
+            <section class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <section id="direccion">
+                            <h2>Dirección</h2>
+                            <p> 
+                                <a href="https://www.google.com/maps" target="_blank">
+                                    Av. Los Angeles 123, Buenos Aires, Argentina
+                                </a>
+                            </p>
+                        </section>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <section id="telefono">
+                            <h2>Teléfono</h2>
+                            <p>
+                                <a href="tel:+541123456789">
+                                    Llamar al +54 11 2345-6789
+                                </a>
+                            </p>
+                        </section>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <section id="email">
+                            <h2>Email</h2>
+                            <p>
+                                <a href="mailto:contacto@motor-solidario.org">
+                                    contacto@motor-solidario.org
+                                </a>
+                            </p>
+                        </section>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <section id="redes">
+                            <h2>Red social</h2>
+                            <p>
+                                <a href="https://www.instagram.com/?flo=true">
+                                    Visitanos en nuestro instagram
+                                </a>
+                            </p>
+                        </section>
+                    </div>
+                </div>
             </section>
 
-            <section id="telefono">
-                <h2>Teléfono</h2>
-                <p>
-                    <a href="tel:+541123456789">
-                        Llamar al +54 11 2345-6789
-                    </a>
-                </p>
-            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Sumate como voluntario</h2>
+                        <p>Completa el formulario</p>
+                        <form action="#" method="post">
+                        
+
+                            <label for="nombre"> Nombre y Apellido:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej: Ignacio Perez" required>
+                            <br>
+                            <label for="input_email">Correo Electronico:</label>
+                            <input type="email" name="email" id="input_email" placeholder="tucorreo@mail.com" required>
+                            <br>
+                            <label for="input_telefono">Telefono:</label>
+                            <input type="tel" name="telefono" id="input_telefono" placeholder="11 1234-5678">
+                            <br>
+                            <label for="Programas">Elegi el programa en el que queres colaborar:</label>
+                            <select name="Programas" id="Programas" required>
+                                <option value="">Elegi tu programa</option>
+                                <option value="1">Conectando Saberes</option>
+                                <option value="2">Cuidando vidas</option>
+                                <option value="3">Manos a la obra</option>
+                            </select>
+
+                            <br>
+                            <label for="Contanos">Contanos que te gustaria aportar a esta gran comunidad!</label>
+                            <textarea name="Contanos" id="Contanos" rows="5"></textarea>
+                            <br>
+                            <button type="submit">Enviar </button>
                 
-            <section id="email">
-                <h2>Email</h2>
-                <p>
-                    <a href="mailto:contacto@motor-solidario.org">
-                        contacto@motor-solidario.org
-                    </a>
-                </p>
+                        </form>
+                    </div>
+                </div>
             </section>
-            <section id="redes">
-                <h2>Red social</h2>
-                <p>
-                    <a href="https://www.instagram.com/?flo=true">
-                        Visitanos en nuestro instagram
-                    </a>
-                </p>
-
-            </section>
-            <h2>Sumate como voluntario</h2>
-            <p>Completa el formulario</p>
-            <form action="#" method="post">
-
-                <label for="nombre"> Nombre y Apellido:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ej: Ignacio Perez" required>
-                <br>
-                <label for="input_email">Correo Electronico:</label>
-                <input type="email" name="email" id="input_email" placeholder="tucorreo@mail.com" required>
-                <br>
-                <label for="input_telefono">Telefono:</label>
-                <input type="tel" name="telefono" id="input_telefono" placeholder="11 1234-5678">
-                <br>
-                <label for="Programas">Elegi el programa en el que queres colaborar:</label>
-                <select name="Programas" id="Programas" required>
-                    <option value="">Elegi tu programa</option>
-                    <option value="1">Conectando Saberes</option>
-                    <option value="2">Cuidando vidas</option>
-                    <option value="3">Manos a la obra</option>
-                </select>
-
-                <br>
-                <label for="Contanos">Contanos que te gustaria aportar a esta gran comunidad!</label>
-                <textarea name="Contanos" id="Contanos" rows="5"></textarea>
-                <br>
-                <button type="submit">Enviar </button>
-                
-            </form>
         </main>
 
         <hr>
 
-<<<<<<< HEAD
         <footer>
             © 2026 ONG Motor Solidario - Todos los derechos reservados
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     </body>
-=======
-    <hr>
-
-<footer>
-    © 2026 ONG Motor Solidario - Todos los derechos reservados
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./JS/JS.js"></script> 
-</body>
->>>>>>> 3ac42e07afedededb09e6846df2f3ba3f979de24
 </html>
