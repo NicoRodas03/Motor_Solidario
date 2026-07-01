@@ -75,6 +75,14 @@ nav a:hover{
 .navbar-personalizada{
     background-color: #0D6E6E;
 }
+#btn-modo {
+    background: transparent;  
+    color: #ffffff;           
+    font-size: 1.2rem;        
+    cursor: pointer;          
+    padding: 5px 10px;        
+    transition: transform 0.2s ease, opacity 0.2s ease; 
+}
 main{padding: 2rem 0;}
 
 section{
