@@ -110,6 +110,11 @@ p {
     gap:1.5rem;
     margin-top: 1rem;
 }
+figcaption{
+    font-size: 0.9rem;
+    color: var(--color-texto);
+    margin-top: 0.5rem;
+}
 
 .card{
     padding: 1.5rem;
