@@ -83,6 +83,11 @@ nav a:hover{
     padding: 5px 10px;        
     transition: transform 0.2s ease, opacity 0.2s ease; 
 }
+#btn-modo:hover {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;                    
+    transform: scale(1.1);                 
+}
 main{padding: 2rem 0;}
 
 section{
