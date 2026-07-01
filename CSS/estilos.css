@@ -111,7 +111,7 @@ section{
     padding: 1.5rem;
     border: 1px solid var(--verde-medio);
     border-radius: 8px;
-    background-color: rgb(225, 255, 188);
+    background-color: var(--color-primario);
     flex: 1 1 280px;
 }
 
