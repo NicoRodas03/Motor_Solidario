@@ -8,6 +8,16 @@
     --narnaja: #e8611a;
     --color-extra:#caf7fa;
 }
+body.modo-oscuro {
+    --color-primario: #1e3d4a;   
+    --color-acento: #b2faff;     
+    --color-texto: #e2f1f5;      
+    --color-fondo: #121b22;      
+    --verde-oscuro: #63b98e;     
+    --verde-medio: #418a6d;      
+    --narnaja: #ff7e39;          
+    --color-extra: #1a2f3b;      
+}
 
 
 *{
