@@ -99,6 +99,10 @@ section{
     background-color: var(--color-extra);
     border-radius:  10px;  
 }
+p {
+    color: var(--color-texto);
+    transition: color 1s; 
+}
 
 .servicios{
     display: flex;
