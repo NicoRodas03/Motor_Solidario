@@ -47,6 +47,11 @@ p{margin-bottom:  1rem;}
 
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: var(--color-primario);
     color: var(--color-texto);
     padding: 1rem 1.5rem;
@@ -56,10 +61,6 @@ header h1{
 }
 
 nav ul{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     list-style: none;
     display: flex;
     gap: 1.5rem;
