@@ -47,6 +47,16 @@ p{margin-bottom:  1rem;}
 
 
 header {
+    position: fixed;            
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 100%;
+    max-width: 1100px;           
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    padding: 1rem 1.5rem;
+    z-index: 1000;
     background-color: var(--color-primario);
     color: var(--color-texto);
     padding: 1rem 1.5rem;
@@ -55,14 +65,6 @@ header h1{
     font-size: 1.75rem;
 }
 
-nav {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: var(--color-primario); 
-    padding: 0.5rem 0; 
-}
 
 nav ul{
     list-style: none;
