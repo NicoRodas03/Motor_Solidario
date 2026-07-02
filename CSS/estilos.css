@@ -47,11 +47,8 @@ p{margin-bottom:  1rem;}
 
 
 header {
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    width: 1100px;
-    z-index: 1000;
+    position: -webkit-sticky;
+    position: sticky;
     background-color: var(--color-primario);
     color: var(--color-texto);
     padding: 1rem 1.5rem;
