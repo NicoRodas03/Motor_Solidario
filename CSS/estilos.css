@@ -56,12 +56,13 @@ header h1{
 }
 
 nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
     list-style: none;
     display: flex;
     gap: 1.5rem;
     margin-top: 0.5rem;
-    position: sticky;
-    top: 0;
 }
 nav a{
     color:var(--color-acento);
