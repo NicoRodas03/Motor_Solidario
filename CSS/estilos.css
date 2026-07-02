@@ -56,19 +56,15 @@ header h1{
 }
 
 nav {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     width: 100%;
     z-index: 1000;
+    background-color: var(--color-primario); 
+    padding: 0.5rem 0; 
 }
 
 nav ul{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
     list-style: none;
     display: flex;
     gap: 1.5rem;
