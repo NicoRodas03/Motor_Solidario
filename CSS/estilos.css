@@ -64,6 +64,11 @@ nav {
 }
 
 nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     list-style: none;
     display: flex;
     gap: 1.5rem;
